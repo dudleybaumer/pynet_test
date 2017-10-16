@@ -1,0 +1,19 @@
+"""
+Loops Ex2
+----------
+
+1. Use a while loop and a counter variable i.
+2. Initialize i to an initial value of 0
+3. Stay in the while loop until i is greater than 49
+4. Increment i each time through the while loop
+5. Print out i (except don't print out i when it is 13).
+"""
+
+i = 0
+
+while i < 49:
+    if i == 13:
+        i +=1
+        continue
+    i += 1
+    print (i)
