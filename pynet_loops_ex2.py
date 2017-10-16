@@ -12,8 +12,7 @@ Loops Ex2
 i = 0
 
 while i < 49:
+    i +=1
     if i == 13:
-        i +=1
         continue
-    i += 1
     print (i)
